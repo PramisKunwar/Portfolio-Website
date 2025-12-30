@@ -10,16 +10,11 @@ import {
   tailwind,
   nodejs,
   git,
-  edunet,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  threejs,
-  mhft,
-  sketcher,
-  mathwork,
-  CompileVortex,
-  eduskill,
+  nebsciencehub,
+  physicslaunchpad,
+  extension,
+  SSIRC,
+  Shanti,
 } from "../assets";
 
 export const navLinks = [
@@ -51,120 +46,84 @@ export const technologies = [
   { name: "Rect JS", icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
-  { name: "Three JS", icon: threejs },
   { name: "git", icon: git },
 ];
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
+    title: "Robotics Mentor",
+    company_name: "Shree Shanti Namuna Secondary School | Shanti Science, ICT and Robotics Club",
+    icon: SSIRC,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Sep 2025 - Oct 2025",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Led robotics mentorship program, teaching students the fundamentals of robotics, including mechanical design, electronics, and programming.",
+      "Guided students in building and programming robots using Arduino and Raspberry Pi platforms, fostering hands-on learning and creativity.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
+    title: "Web development Mentor",
+    company_name: "Shree Shanti Namuna Secondary School | Shanti Science, ICT and Robotics Club",
+    icon: Shanti,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "Nov 2025 - Dec 2025",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "Conducted web development workshops, introducing students to HTML, CSS, and JavaScript to build interactive websites.",
+      "Assisted students in creating their own web projects, enhancing their coding skills and understanding of web technologies.",
+      "Promoted best practices in web design and development, encouraging students to create user-friendly and visually appealing websites.",
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
+    title: "Chess coach",
+    company_name: "Shree Shanti Namuna Secondary School | Shanti Chess Club",
+    icon: Shanti,
     iconBg: "#161329",
     date: "June 2023 - July 2023",
     points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Organized and led chess coaching sessions for students, teaching them fundamental strategies, tactics, and rules of the game.",
+      "Developed customized training plans to improve students' skills, focusing on opening principles, middle-game strategies, and endgame techniques.",
+      "Encouraged critical thinking and problem-solving through chess puzzles and competitive play, fostering a love for the game among students.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Neb-Science-Hub",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "Your one-stop resource for NEB grade 11 science notes, previous year questions, and study materials",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
+      { name: "Typescript", color: "blue-text-gradient" },
       { name: "HTML", color: "green-text-gradient" },
       { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "Notes from toppers", color: "yellow-text-gradient" },
     ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    image: nebsciencehub,
+    source_code_link: "https://github.com/PramisKunwar/neb-science-hub",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Physics Launchpad",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "Physics Launchpad is an interactive, web-based Projectile Motion Virtual Lab built with TypeScript + React which allows users to simulate and visualize projectile motion experiments in a virtual environment.",
+    tags: [
+      { name: "TypeScript", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Vite", color: "pink-text-gradient" },
+    ],
+    image: physicslaunchpad,
+    source_code_link: "https://github.com/PramisKunwar/physics-launchpad",
+  },
+  {
+    name: "Focus Nudge Extension",
+    description:
+      "A gentle, minimalist Chrome extension that displays context-aware motivational messages when you visit distracting websites.",
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
-    ],
-    image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
-  },
-  {
-    name: "Mental Health Fitness Tracker",
-    description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
-    tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
-    ],
-    image: mhft,
-    source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
       { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
+      { name: "JavaScript", color: "pink-text-gradient" },
     ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    image: extension,
+    source_code_link:
+      "https://github.com/PramisKunwar/extension",
   },
 ];

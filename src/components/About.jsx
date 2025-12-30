@@ -40,11 +40,12 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science student at SRM University and multilingual speaker with a passion
-        for ethical hacking, artificial intelligence, and neural language processing. I am looking
-        to join a company that values innovation, collaboration, and continuous learning and am
-        confident that my enthusiasm and drive will help me succeed in any role that leverages my
-        passion for technology.
+        Motivated and tech-savvy Grade 12 Computer Science student with a strong passion for Robotics, web development,
+        innovation, and emerging technologies. Skilled in building responsive and user-friendly websites using
+        HTML, CSS, JavaScript, and modern frameworks like React. Experienced in collaborative coding projects
+        and problem-solving in team environments. Eager to learn, adapt, and contribute clean, efficient code in
+        real-world applications.
+
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
